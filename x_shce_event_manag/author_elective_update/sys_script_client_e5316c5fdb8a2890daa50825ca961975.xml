@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When "Function Location" gets changed to "Other", show the "Function Location - Other" field and blank it's previous value</description>
+        <field>function_location</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Function Location Other - show/hide</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    if (newValue == 'Other') {
+        g_form.setValue('function_location_other', '');
+        g_form.setDisplay('function_location_other', 'True');
+		g_form.setMandatory('function_location_other', 'True');
+    } else {
+		g_form.setValue('function_location_other', '');
+        g_form.setDisplay('function_location_other', 'False');
+		g_form.setMandatory('function_location_other', 'False');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 20:07:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>e5316c5fdb8a2890daa50825ca961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Function Location Other - show/hide</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_script_client_e5316c5fdb8a2890daa50825ca961975</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 20:07:48</sys_updated_on>
+        <table>x_shce_event_manag_events</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_script_client_e5316c5fdb8a2890daa50825ca961975</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;When "Function Location" gets changed to "Other", show the "Function Location - Other" field and blank it's previous value&lt;/description&gt;&lt;field&gt;function_location&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Function Location Other - show/hide&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    if (newValue == 'Other') {
+        g_form.setValue('function_location_other', '');
+        g_form.setDisplay('function_location_other', 'True');
+		g_form.setMandatory('function_location_other', 'True');
+    } else {
+		g_form.setValue('function_location_other', '');
+        g_form.setDisplay('function_location_other', 'False');
+		g_form.setMandatory('function_location_other', 'False');
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-05 20:07:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;e5316c5fdb8a2890daa50825ca961975&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Function Location Other - show/hide&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management" source="x_shce_event_manag"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Event Management"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e5316c5fdb8a2890daa50825ca961975&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-05 20:07:48&lt;/sys_updated_on&gt;&lt;table&gt;x_shce_event_manag_events&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1886959273</payload_hash>
+        <record_name>Function Location Other - show/hide</record_name>
+        <reverted_from/>
+        <source>4658dffadb02e490daa50825ca9619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 20:07:48</sys_created_on>
+        <sys_id>9acbfc9fdb0e2890daa50825ca9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17773cecc480000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 20:07:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>92cbfc9f1c0e2890818ba47fc6d410d3</update_guid>
+        <update_guid_history>92cbfc9f1c0e2890818ba47fc6d410d3:1886959273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 20:18:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0f9a4c8ec8e9466ea683356172232e11</sys_id>
+        <sys_metadata>e5316c5fdb8a2890daa50825ca961975</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Function Location Other - show/hide</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent display_value="Events">8e9a937adb42e490daa50825ca9619a4</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_script_client_e5316c5fdb8a2890daa50825ca961975</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e5316c5fdb8a2890daa50825ca961975">9acbfc9fdb0e2890daa50825ca9619d3</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 20:18:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

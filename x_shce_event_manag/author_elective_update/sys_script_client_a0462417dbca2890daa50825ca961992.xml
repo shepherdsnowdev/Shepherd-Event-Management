@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>function_date_time</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set day of week</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (oldValue == newValue)
+		return;
+	
+    var d = new Date(newValue.replace("-","/"));
+	var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+	g_form.setValue('function_day_of_the_week',days[d.getDay()]);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 18:46:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0462417dbca2890daa50825ca961992</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Set day of week</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_script_client_a0462417dbca2890daa50825ca961992</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 19:47:17</sys_updated_on>
+        <table>x_shce_event_manag_events</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_script_client_a0462417dbca2890daa50825ca961992</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;function_date_time&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set day of week&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (oldValue == newValue)
+		return;
+	
+    var d = new Date(newValue.replace("-","/"));
+	var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+	g_form.setValue('function_day_of_the_week',days[d.getDay()]);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-05 18:46:19&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a0462417dbca2890daa50825ca961992&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set day of week&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management" source="x_shce_event_manag"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Event Management"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a0462417dbca2890daa50825ca961992&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-05 19:47:17&lt;/sys_updated_on&gt;&lt;table&gt;x_shce_event_manag_events&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1675807777</payload_hash>
+        <record_name>Set day of week</record_name>
+        <reverted_from/>
+        <source>4658dffadb02e490daa50825ca9619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 19:47:17</sys_created_on>
+        <sys_id>3517f89bdb0e2890daa50825ca9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17773bc04ef0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 19:47:17</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f917f89b340e28904eb0d462f79381b9</update_guid>
+        <update_guid_history>f917f89b340e28904eb0d462f79381b9:-1675807777,6b85381bd00e289089b90d516340eb22:68514444,e105781bf40e2890bab95de8a9d9cb48:1829914081,e994fcd7280e28905fe5bfba1b35830b:-57219582,d9243497fa0e2890a5fccb68c93d2fec:-344866010,d9043497e40e2890f70b11c426ed92f5:-2045137643,087378d3770e28904edbaa09f66d6d5a:-1975710661,62333057ff0e289044fd807c9b56b544:68514444,2f03b017d20e28907b366589939138da:149573186,0ce2bcd3ab0e2890c4771a2c8cb3fcf8:-1187172635,5841bc936b0e2890de643b445a35f009:-3540334,883c20db15ca2890b479dc33c85456f2:-718189463,ed9b649ba9ca28904d44b2fa6966f262:2072478494,977b6c5ba0ca28903b73dfdb9da86124:869164779,b20b641b84ca289052420cbfdd68dd33:-927171438,46f9281b30ca2890fc1702220377d208:-1093670902,21c928d76bca28909613cec556a06af0:1464523104,f09964d720ca2890d34d6b497ee8749b:-35864397,a82960d757ca2890fe75cfbccd85e436:-773909255</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 19:57:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>80da5567bb1946c6888c2ac55959a7a1</sys_id>
+        <sys_metadata>a0462417dbca2890daa50825ca961992</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set day of week</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent display_value="Events">8e9a937adb42e490daa50825ca9619a4</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_script_client_a0462417dbca2890daa50825ca961992</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a0462417dbca2890daa50825ca961992">3517f89bdb0e2890daa50825ca9619ba</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 19:57:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

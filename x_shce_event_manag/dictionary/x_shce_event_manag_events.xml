@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Events" max_length="40" name="x_shce_event_manag_events" sizeclass="1" type="collection">
+        <element label="Account Number for Table Linens" max_length="20" name="account_number_for_table_linens" type="string"/>
+        <element choice="3" label="Available Rooms" max_length="40" name="available_rooms" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Atrium (MR-M7)" sequence="10" value="Atrium (MR-M7)"/>
+                <element inactive_on_update="false" label="Board Room (MR-S1)" sequence="20" value="Board Room (MR-S1)"/>
+                <element inactive_on_update="false" label="Callaway Auditorium (MR-M7)" sequence="30" value="Callaway Auditorium (MR-M7)"/>
+                <element inactive_on_update="false" label="Classroom A (MR-M6)" sequence="40" value="Classroom A (MR-M6)"/>
+                <element inactive_on_update="false" label="Classroom B (MR-M6)" sequence="50" value="Classroom B (MR-M6)"/>
+                <element inactive_on_update="false" label="Classroom C (MR-M6)" sequence="60" value="Classroom C (MR-M6)"/>
+                <element inactive_on_update="false" label="Garden and Grill (MR-S1)" sequence="70" value="Garden and Grill (MR-S1)"/>
+                <element inactive_on_update="false" label="Guest Dining Room (MR-MG)" sequence="80" value="Guest Dining Room (MR-MG)"/>
+                <element inactive_on_update="false" label="Livingston Gym (MR-MGY)" sequence="90" value="Livingston Gym (MR-MGY)"/>
+                <element inactive_on_update="false" label="Plaza Level (MR-WP)" sequence="100" value="Plaza Level (MR-WP)"/>
+                <element inactive_on_update="false" label="Other" sequence="200" value="Other"/>
+            </choice>
+        </element>
+        <element label="Bill to Account" max_length="10" name="bill_to_account" type="string"/>
+        <element label="Bill to Department/Cost Center" max_length="32" name="bill_to_department" reference="cmn_department" type="reference"/>
+        <element choice="1" label="Dinnerware" max_length="40" name="dinnerware" type="choice">
+            <choice/>
+        </element>
+        <element label="Food Service" max_length="40" name="food_service" type="boolean"/>
+        <element label="Function Approver" max_length="32" name="function_approver" reference="sys_user" type="reference"/>
+        <element label="Function Date/Time" max_length="40" name="function_date_time" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Function Day of the Week" max_length="10" name="function_day_of_the_week" read_only="true" type="string"/>
+        <element choice="1" label="Function Location" max_length="50" name="function_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Test" sequence="0" value="Test"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="100"/>
+            </choice>
+        </element>
+        <element label="Function Location - Other" max_length="50" name="function_location_other" type="string"/>
+        <element label="Function Name" max_length="50" name="function_name" type="string"/>
+        <element choice="1" label="Long Rectangular Table" max_length="40" name="long_rectangular_table" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No linens" sequence="10" value="no_linen"/>
+                <element inactive_on_update="false" label="Banquet Cloth" sequence="20" value="banquet_cloth"/>
+                <element inactive_on_update="false" label="Long Stretchy Cloth" sequence="30" value="long_stretchy_cloth"/>
+                <element inactive_on_update="false" label="Plastic Banquet" sequence="40" value="plastic_banquet"/>
+            </choice>
+        </element>
+        <element label="Number needed" max_length="40" name="number_lrt" type="integer"/>
+        <element label="Number of Chairs" max_length="40" name="number_of_chairs" type="integer"/>
+        <element label="Number needed" max_length="40" name="number_round" type="integer"/>
+        <element label="Number needed" max_length="40" name="number_srt" type="integer"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Request Made on" max_length="40" name="request_made" type="glide_date"/>
+        <element label="Room Reservation" max_length="40" name="room_reservation" type="boolean"/>
+        <element choice="1" label="60&quot; Round Table" max_length="40" name="round_table" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No linens" sequence="10" value="no_linen"/>
+                <element inactive_on_update="false" label="Short Round Cloth" sequence="20" value="short_round_cloth"/>
+                <element inactive_on_update="false" label="Long Round Cloth" sequence="30" value="long_round_cloth"/>
+                <element inactive_on_update="false" label="Plastic Round Tablecloth" sequence="40" value="plastic_round_tablecloth"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service Requested" max_length="40" name="service_requested" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Table Service" sequence="10" value="Table Service"/>
+                <element inactive_on_update="false" label="Buffet Served" sequence="20" value="Buffet Served"/>
+                <element inactive_on_update="false" label="Buffet Self-Serve" sequence="30" value="Buffet Self-Serve"/>
+                <element inactive_on_update="false" label="Box Meal" sequence="40" value="Box Meal"/>
+            </choice>
+        </element>
+        <element choice="1" label="Setup Arrangements" max_length="40" name="setup_arrangements" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Banquet" sequence="10" value="Banquet"/>
+                <element inactive_on_update="false" label="Circle" sequence="20" value="Circle"/>
+                <element inactive_on_update="false" label="Classroom" sequence="30" value="Classroom"/>
+                <element inactive_on_update="false" label="Conference" sequence="40" value="Conference"/>
+                <element inactive_on_update="false" label="Open U" sequence="50" value="Open U"/>
+                <element inactive_on_update="false" label="Theater" sequence="60" value="Theater"/>
+                <element inactive_on_update="false" label="Other" sequence="200" value="Other"/>
+            </choice>
+        </element>
+        <element choice="1" label="Short Rectangular Table" max_length="40" name="short_rectangular_table" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No linens" sequence="10" value="no_linen"/>
+                <element inactive_on_update="false" label="Banquet Cloth" sequence="20" value="banquet_cloth"/>
+                <element inactive_on_update="false" label="Long Stretchy Cloth" sequence="30" value="long_stretchy_cloth"/>
+                <element inactive_on_update="false" label="Plastic Banquet" sequence="40" value="plastic_banquet"/>
+            </choice>
+        </element>
+        <element label="Time Clean-up Possible" max_length="40" name="time_clean_up_possible" type="glide_time"/>
+        <element label="Time Food Served" max_length="40" name="time_food_served" type="glide_time"/>
+        <element label="Total Attendees" max_length="40" name="total_attendees" type="integer"/>
+    </element>
+</database>

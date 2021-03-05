@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>sys_created_on</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_shce_event_manag_events</name>
+        <read_only>true</read_only>
+        <read_only_override>true</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-18 19:42:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fb82bbd3db9aa050daa50825ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_created_on</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_dictionary_override_fb82bbd3db9aa050daa50825ca961995</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-18 19:42:09</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_dictionary_override_fb82bbd3db9aa050daa50825ca961995</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>sys_created_on</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_shce_event_manag_events</name><read_only>true</read_only><read_only_override>true</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-02-18 19:42:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>fb82bbd3db9aa050daa50825ca961995</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_created_on</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>sys_dictionary_override_fb82bbd3db9aa050daa50825ca961995</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-02-18 19:42:09</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>-1830558068</payload_hash>
+        <record_name>sys_created_on</record_name>
+        <reverted_from/>
+        <source>4658dffadb02e490daa50825ca9619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-18 19:42:10</sys_created_on>
+        <sys_id>9d923753db9aa050daa50825ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b6a9fe950000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-18 19:42:10</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>95923753549aa050976edc70e070e139</update_guid>
+        <update_guid_history>95923753549aa050976edc70e070e139:-1830558068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-18 19:43:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>08aa2141e6254a36850d525cdec127b9</sys_id>
+        <sys_metadata>fb82bbd3db9aa050daa50825ca961995</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_created_on</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent display_value="x_shce_event_manag_events">c69a937adb42e490daa50825ca9619a7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_fb82bbd3db9aa050daa50825ca961995</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_fb82bbd3db9aa050daa50825ca961995">9d923753db9aa050daa50825ca961939</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-18 19:43:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

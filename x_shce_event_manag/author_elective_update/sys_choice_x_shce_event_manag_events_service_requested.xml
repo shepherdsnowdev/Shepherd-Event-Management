@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service_requested" table="x_shce_event_manag_events" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service_requested</element>
+            <name>x_shce_event_manag_events</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 18:58:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>433263f2db82e490daa50825ca9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service_requested</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_choice_x_shce_event_manag_events_service_requested</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:58:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_requested</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Table Service</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>10</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 18:58:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6532a772db82e490daa50825ca961938</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:58:20</sys_updated_on>
+            <value>Table Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_requested</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Buffet Served</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>20</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 18:58:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c732abb2db82e490daa50825ca9619bc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:58:33</sys_updated_on>
+            <value>Buffet Served</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_requested</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Buffet Self-Serve</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>30</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 18:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f852a3f2db82e490daa50825ca961981</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:58:48</sys_updated_on>
+            <value>Buffet Self-Serve</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_requested</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Box Meal</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>40</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 18:58:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>186223b2db82e490daa50825ca9619a7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 18:58:56</sys_updated_on>
+            <value>Box Meal</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

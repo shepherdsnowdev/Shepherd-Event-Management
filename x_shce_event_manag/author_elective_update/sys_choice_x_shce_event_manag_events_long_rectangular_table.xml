@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="long_rectangular_table" table="x_shce_event_manag_events" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>long_rectangular_table</element>
+            <name>x_shce_event_manag_events</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-22 19:37:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2ec750f8db266450f20205d2ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>long_rectangular_table</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_choice_x_shce_event_manag_events_long_rectangular_table</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-22 19:37:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>long_rectangular_table</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No linens</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>10</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-22 19:37:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8db798f8db266450f20205d2ca961956</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-22 19:37:12</sys_updated_on>
+            <value>no_linen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>long_rectangular_table</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Banquet Cloth</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>20</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-22 19:37:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bec7583cdb266450f20205d2ca9619ec</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-22 19:37:26</sys_updated_on>
+            <value>banquet_cloth</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>long_rectangular_table</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Long Stretchy Cloth</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>30</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-22 19:37:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42d71cf8db266450f20205d2ca961972</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-22 19:37:59</sys_updated_on>
+            <value>long_stretchy_cloth</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>long_rectangular_table</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plastic Banquet</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>40</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-22 19:38:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eae7983cdb266450f20205d2ca9619f5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-22 19:38:16</sys_updated_on>
+            <value>plastic_banquet</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

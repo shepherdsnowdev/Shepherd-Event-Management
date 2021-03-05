@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number_of_chairs" label="Number of Chairs" language="en" table="x_shce_event_manag_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number_of_chairs</element>
+            <help/>
+            <hint/>
+            <label>Number of Chairs</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <plural>Number of Chairs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 20:32:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bdd73f3edbc2e490daa50825ca9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number of Chairs</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_documentation_x_shce_event_manag_events_number_of_chairs_en</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 20:32:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

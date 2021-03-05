@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_shce_food_servic_food_function_requests</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calculate Day of Week for Food Svcs Req</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gdt = new GlideDateTime(current.function_date_time);
+	current.setValue('function_date_of_the_week',gdt.getDay());
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 18:17:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa3264dfdb8a2890daa50825ca96198c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Calculate Day of Week for Food Svcs Req</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_script_aa3264dfdb8a2890daa50825ca96198c</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 18:29:46</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=aa3264dfdb8a2890daa50825ca96198c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_script_aa3264dfdb8a2890daa50825ca96198c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_shce_food_servic_food_function_requests&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Calculate Day of Week for Food Svcs Req&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gdt = new GlideDateTime(current.function_date_time);
+	current.setValue('function_date_of_the_week',gdt.getDay());
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-05 18:17:54&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;aa3264dfdb8a2890daa50825ca96198c&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate Day of Week for Food Svcs Req&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Management" source="x_shce_event_manag"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Event Management"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_aa3264dfdb8a2890daa50825ca96198c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-05 18:29:46&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=aa3264dfdb8a2890daa50825ca96198c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>557264402</payload_hash>
+        <record_name>Calculate Day of Week for Food Svcs Req</record_name>
+        <reverted_from/>
+        <source>4658dffadb02e490daa50825ca9619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 18:29:47</sys_created_on>
+        <sys_id>da552093dbca2890daa50825ca961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17773750d9f0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 18:29:47</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>de552093e0ca2890133c4736d01ae914</update_guid>
+        <update_guid_history>de552093e0ca2890133c4736d01ae914:557264402,0a84a4534fca2890a97a11afec318687:334087535,c6446c5320ca2890e666245fc40d2e26:-1964740654,ad04e0530dca28906674489c9b783138:-2033570678,ecb324df228a2890dfcd11c5b69a83b6:352504354,82a32053b4ca289012149620184a7c52:1085938503,68a26cdf678a2890d7e4e5ba0d576b3f:-1088820473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-05 18:33:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>73e36031c3254c56b47fc62278f434c1</sys_id>
+        <sys_metadata>aa3264dfdb8a2890daa50825ca96198c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate Day of Week for Food Svcs Req</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent display_value="Food Service Function Requests">dc915a7bdbe56410daa50825ca961991</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_script_aa3264dfdb8a2890daa50825ca96198c</sys_update_name>
+        <sys_update_version display_value="sys_script_aa3264dfdb8a2890daa50825ca96198c">da552093dbca2890daa50825ca961915</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-05 18:33:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

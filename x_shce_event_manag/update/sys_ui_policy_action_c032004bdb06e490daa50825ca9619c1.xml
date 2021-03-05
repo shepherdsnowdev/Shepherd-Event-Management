@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>function_date_time</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-04 21:17:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c032004bdb06e490daa50825ca9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>function_date_time</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c032004bdb06e490daa50825ca9619c1</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-04 21:17:52</sys_updated_on>
+        <table>x_shce_event_manag_events</table>
+        <ui_policy display_value="Field controls for Event form">dee04c0bdb06e490daa50825ca96195b</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

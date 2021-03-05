@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="available_rooms" table="x_shce_event_manag_events" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>available_rooms</element>
+            <name>x_shce_event_manag_events</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:01:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>aff2ebf2db82e490daa50825ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>available_rooms</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_choice_x_shce_event_manag_events_available_rooms</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:01:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atrium (MR-M7)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>10</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:02:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a13ebf2db82e490daa50825ca9619e4</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:05:51</sys_updated_on>
+            <value>Atrium (MR-M7)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Board Room (MR-S1)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>20</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:03:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25536bf2db82e490daa50825ca9619fb</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:05:54</sys_updated_on>
+            <value>Board Room (MR-S1)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Callaway Auditorium (MR-M7)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>30</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c323a736db82e490daa50825ca961938</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:05:56</sys_updated_on>
+            <value>Callaway Auditorium (MR-M7)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Classroom A (MR-M6)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>40</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:01:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0d2a336db82e490daa50825ca961900</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:05:58</sys_updated_on>
+            <value>Classroom A (MR-M6)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Classroom B (MR-M6)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>50</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:01:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7f22736db82e490daa50825ca961930</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:06:01</sys_updated_on>
+            <value>Classroom B (MR-M6)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Classroom C (MR-M6)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>60</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:01:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5703e3f2db82e490daa50825ca961928</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:06:03</sys_updated_on>
+            <value>Classroom C (MR-M6)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Garden and Grill (MR-S1)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>70</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:03:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad63ab36db82e490daa50825ca96192a</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:06:05</sys_updated_on>
+            <value>Garden and Grill (MR-S1)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Guest Dining Room (MR-MG)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>80</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:02:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>923363b2db82e490daa50825ca961927</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:06:08</sys_updated_on>
+            <value>Guest Dining Room (MR-MG)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Livingston Gym (MR-MGY)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>90</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0243ab36db82e490daa50825ca961936</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:06:10</sys_updated_on>
+            <value>Livingston Gym (MR-MGY)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plaza Level (MR-WP)</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>100</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:03:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c73ab36db82e490daa50825ca961934</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:05:44</sys_updated_on>
+            <value>Plaza Level (MR-WP)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>available_rooms</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>200</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 19:03:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b736f36db82e490daa50825ca961929</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 19:03:44</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

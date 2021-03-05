@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Shepherd Event Management">788290b4db266450f20205d2ca96196e</application>
+        <filter/>
+        <name>Data Lists</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_shce_event_manag.data_lists_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-22 19:14:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>748290b4db266450f20205d2ca96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data Lists</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_ui_module_748290b4db266450f20205d2ca96198a</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-22 19:14:03</sys_updated_on>
+        <table>x_shce_event_manag_data_lists</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_ui_module_748290b4db266450f20205d2ca96198a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Shepherd Event Management">788290b4db266450f20205d2ca96196e</application><filter/><name>Data Lists</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_shce_event_manag.data_lists_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-02-22 19:14:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>748290b4db266450f20205d2ca96198a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Data Lists</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>sys_ui_module_748290b4db266450f20205d2ca96198a</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-02-22 19:14:03</sys_updated_on><table>x_shce_event_manag_data_lists</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1332418380</payload_hash>
+        <record_name>Data Lists</record_name>
+        <reverted_from/>
+        <source>4658dffadb02e490daa50825ca9619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-22 19:14:03</sys_created_on>
+        <sys_id>308290b4db266450f20205d2ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177cb29b3550000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-22 19:14:03</sys_updated_on>
+        <type>Module</type>
+        <update_guid>388290b424266450b068b8738f815c8c</update_guid>
+        <update_guid_history>388290b424266450b068b8738f815c8c:1332418380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-22 19:26:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>5a864932e5854f04a4477bf61f52eaa1</sys_id>
+        <sys_metadata>748290b4db266450f20205d2ca96198a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data Lists</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_748290b4db266450f20205d2ca96198a</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_748290b4db266450f20205d2ca96198a">308290b4db266450f20205d2ca96198d</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-22 19:26:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Food Services Requested" section_id="19fbf3b2db06e490daa50825ca96194d" sys_domain="global" table="x_shce_event_manag_events" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_food_served</element>
+            <position>0</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
+            <sys_id>61212885dba6a450f20205d2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Food Services Requested" display_value="Food Services Requested" name="x_shce_event_manag_events" sys_domain="global" view="Default view">19fbf3b2db06e490daa50825ca96194d</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_clean_up_possible</element>
+            <position>1</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
+            <sys_id>e5212885dba6a450f20205d2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Food Services Requested" display_value="Food Services Requested" name="x_shce_event_manag_events" sys_domain="global" view="Default view">19fbf3b2db06e490daa50825ca96194d</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
+            <sys_id>6d212885dba6a450f20205d2ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Food Services Requested" display_value="Food Services Requested" name="x_shce_event_manag_events" sys_domain="global" view="Default view">19fbf3b2db06e490daa50825ca96194d</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_requested</element>
+            <position>3</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
+            <sys_id>e1212885dba6a450f20205d2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Food Services Requested" display_value="Food Services Requested" name="x_shce_event_manag_events" sys_domain="global" view="Default view">19fbf3b2db06e490daa50825ca96194d</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dinnerware</element>
+            <position>4</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
+            <sys_id>69212885dba6a450f20205d2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Food Services Requested" display_value="Food Services Requested" name="x_shce_event_manag_events" sys_domain="global" view="Default view">19fbf3b2db06e490daa50825ca96194d</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Food Services Requested</caption>
+            <header>false</header>
+            <name>x_shce_event_manag_events</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-04 20:50:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19fbf3b2db06e490daa50825ca96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Food Services Requested</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_ui_section_19fbf3b2db06e490daa50825ca96194d</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-04 20:50:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

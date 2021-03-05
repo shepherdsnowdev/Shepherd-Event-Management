@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Food service requests and room reservations</description>
+        <device_type>browser</device_type>
+        <hint>Food service requests and room reservations</hint>
+        <name/>
+        <order/>
+        <roles>x_shce_event_manag.food services,x_shce_event_manag.room mgr</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-04 18:25:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59ca977adb42e490daa50825ca9619bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Shepherd Event Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_app_application_59ca977adb42e490daa50825ca9619bf</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-22 19:13:07</sys_updated_on>
+        <title>Shepherd Event Management</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

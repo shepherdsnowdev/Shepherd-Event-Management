@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="size_of_tables" table="x_shce_event_manag_events" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>size_of_tables</element>
+            <name>x_shce_event_manag_events</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-05 21:22:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>46cc4d97db8e2890daa50825ca961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>size_of_tables</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_choice_x_shce_event_manag_events_size_of_tables</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-05 21:22:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_of_tables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8x18</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>10</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-05 21:22:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28bc4d97db8e2890daa50825ca961970</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-05 21:22:12</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_of_tables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8x30</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>20</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-05 21:22:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2cc8d97db8e2890daa50825ca961940</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-05 21:22:21</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_of_tables</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>60" round</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>30</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-02-05 21:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99dc0d97db8e2890daa50825ca9619ef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-02-05 21:22:30</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
