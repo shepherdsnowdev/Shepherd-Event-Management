@@ -2,11 +2,11 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="New Event">46ddfcd3db4e2890daa50825ca9619b3</cat_item>
+        <cat_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field>size_of_tables</choice_field>
-        <choice_table>x_shce_event_manag_events</choice_table>
+        <choice_field/>
+        <choice_table/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -18,35 +18,35 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <example_text/>
-        <field>size_of_tables</field>
+        <field>long_rectangular_table</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table>x_shce_event_manag_events</list_table>
+        <list_table/>
         <lookup_label/>
         <lookup_price/>
-        <lookup_table>x_shce_event_manag_events</lookup_table>
+        <lookup_table/>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>size_of_tables</lookup_value>
+        <lookup_value/>
         <macro/>
         <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>size_of_tables</name>
-        <order>70</order>
+        <name>long_rectangular_table</name>
+        <order>120</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Size of tables:</question_text>
+        <question_text>Long rectangular tables</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_shce_event_manag_events</record_producer_table>
-        <reference>x_shce_event_manag_events</reference>
+        <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
@@ -57,21 +57,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2021-02-08 19:36:28</sys_created_on>
+        <sys_created_on>2021-03-05 20:50:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>3e11d01cdb12a010f20205d2ca96193a</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Size of tables:</sys_name>
+        <sys_id>48e1d518db76ec10daa50825ca9619e8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Long rectangular tables</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
-        <sys_update_name>item_option_new_3e11d01cdb12a010f20205d2ca96193a</sys_update_name>
+        <sys_update_name>item_option_new_48e1d518db76ec10daa50825ca9619e8</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-02-08 20:20:46</sys_updated_on>
+        <sys_updated_on>2021-03-05 21:30:50</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -86,22 +86,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=3e11d01cdb12a010f20205d2ca96193a"/>
-    <fx_price action="delete_multiple" query="id=3e11d01cdb12a010f20205d2ca96193a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=48e1d518db76ec10daa50825ca9619e8"/>
+    <fx_price action="delete_multiple" query="id=48e1d518db76ec10daa50825ca9619e8"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>3e11d01cdb12a010f20205d2ca96193a</id>
+        <id>48e1d518db76ec10daa50825ca9619e8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2021-02-08 19:36:29</sys_created_on>
-        <sys_id>6061581cdb12a010f20205d2ca9619e9</sys_id>
+        <sys_created_on>2021-03-05 20:50:25</sys_created_on>
+        <sys_id>ff02d918db76ec10daa50825ca961959</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-02-08 19:36:29</sys_updated_on>
+        <sys_updated_on>2021-03-05 20:50:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -109,16 +109,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>3e11d01cdb12a010f20205d2ca96193a</id>
+        <id>48e1d518db76ec10daa50825ca9619e8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2021-02-08 19:36:28</sys_created_on>
-        <sys_id>6c61581cdb12a010f20205d2ca9619e7</sys_id>
+        <sys_created_on>2021-03-05 20:50:25</sys_created_on>
+        <sys_id>b702d918db76ec10daa50825ca961959</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-02-08 19:36:28</sys_updated_on>
+        <sys_updated_on>2021-03-05 20:50:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

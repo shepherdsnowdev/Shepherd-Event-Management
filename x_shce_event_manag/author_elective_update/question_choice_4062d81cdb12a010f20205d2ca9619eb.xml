@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>200</order>
+        <question display_value="Size of table(s):">3e11d01cdb12a010f20205d2ca96193a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-08 19:41:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4062d81cdb12a010f20205d2ca9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8x30</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>question_choice_4062d81cdb12a010f20205d2ca9619eb</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:41:03</sys_updated_on>
+        <text>8x30</text>
+        <value>8x30</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=4062d81cdb12a010f20205d2ca9619eb"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>4062d81cdb12a010f20205d2ca9619eb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-08 19:41:03</sys_created_on>
+        <sys_id>7b625c5cdb12a010f20205d2ca961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:41:03</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>4062d81cdb12a010f20205d2ca9619eb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-08 19:41:03</sys_created_on>
+        <sys_id>33625c5cdb12a010f20205d2ca961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:41:03</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>question_choice_4062d81cdb12a010f20205d2ca9619eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>200</order><question display_value="Size of table(s):">3e11d01cdb12a010f20205d2ca96193a</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-02-08 19:41:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>4062d81cdb12a010f20205d2ca9619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>8x30</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>question_choice_4062d81cdb12a010f20205d2ca9619eb</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-02-08 19:41:03</sys_updated_on><text>8x30</text><value>8x30</value></question_choice><fx_price action="delete_multiple" query="id=4062d81cdb12a010f20205d2ca9619eb"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>4062d81cdb12a010f20205d2ca9619eb</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-02-08 19:41:03</sys_created_on><sys_id>7b625c5cdb12a010f20205d2ca961964</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-02-08 19:41:03</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>4062d81cdb12a010f20205d2ca9619eb</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-02-08 19:41:03</sys_created_on><sys_id>33625c5cdb12a010f20205d2ca961964</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-02-08 19:41:03</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1429862560</payload_hash>
+        <record_name>8x30</record_name>
+        <reverted_from/>
+        <source>4658dffadb02e490daa50825ca9619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-08 19:41:03</sys_created_on>
+        <sys_id>bb625c5cdb12a010f20205d2ca961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177832962ed0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:41:03</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b3625c5c7e12a010f35de3af74dc8c66</update_guid>
+        <update_guid_history>b3625c5c7e12a010f35de3af74dc8c66:-1429862560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03-05-2021 03:39:03 PM">cd7f8594db76ec10daa50825ca961946</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-05 20:39:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>28e1df414fa545f8893c34ee59f8c240</sys_id>
+        <sys_metadata>4062d81cdb12a010f20205d2ca9619eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8x30</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>question_choice_4062d81cdb12a010f20205d2ca9619eb</sys_update_name>
+        <sys_update_version display_value="question_choice_4062d81cdb12a010f20205d2ca9619eb">bb625c5cdb12a010f20205d2ca961966</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-05 20:39:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

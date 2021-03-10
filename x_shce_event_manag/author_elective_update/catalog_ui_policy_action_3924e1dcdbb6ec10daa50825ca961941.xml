@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</catalog_item>
+        <catalog_variable>IO:040459d8db76ec10daa50825ca961959</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>120</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-05 22:09:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3924e1dcdbb6ec10daa50825ca961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number_lrt</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3924e1dcdbb6ec10daa50825ca961941</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-05 22:09:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set up initial field visibility on load">958321dcdbb6ec10daa50825ca961932</ui_policy>
+        <variable>number_lrt</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>catalog_ui_policy_action_3924e1dcdbb6ec10daa50825ca961941</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</catalog_item><catalog_variable>IO:040459d8db76ec10daa50825ca961959</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>120</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-03-05 22:09:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3924e1dcdbb6ec10daa50825ca961941</sys_id><sys_mod_count>0</sys_mod_count><sys_name>number_lrt</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>catalog_ui_policy_action_3924e1dcdbb6ec10daa50825ca961941</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-03-05 22:09:41</sys_updated_on><table/><ui_policy display_value="Set up initial field visibility on load">958321dcdbb6ec10daa50825ca961932</ui_policy><variable>number_lrt</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>629267509</payload_hash>
+        <record_name>number_lrt</record_name>
+        <reverted_from/>
+        <source>38643c9cdbb2ec10daa50825ca961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-05 22:09:41</sys_created_on>
+        <sys_id>bc34e1dcdbb6ec10daa50825ca9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780470739b0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-05 22:09:41</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>b434e1dc0fb6ec10742f7a29187b02c8</update_guid>
+        <update_guid_history>b434e1dc0fb6ec10742f7a29187b02c8:629267509</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03-05-2021 05:23:36 PM">2467a114dbf6ec10daa50825ca961938</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-05 22:23:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>05573bbfdc2646ee8de59169f4fbaef9</sys_id>
+        <sys_metadata>3924e1dcdbb6ec10daa50825ca961941</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number_lrt</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_3924e1dcdbb6ec10daa50825ca961941</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_3924e1dcdbb6ec10daa50825ca961941">bc34e1dcdbb6ec10daa50825ca9619c8</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-05 22:23:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

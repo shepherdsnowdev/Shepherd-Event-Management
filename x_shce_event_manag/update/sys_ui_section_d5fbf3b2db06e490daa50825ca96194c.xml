@@ -4,13 +4,13 @@
             <element>available_rooms</element>
             <position>0</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>99212885dba6a450f20205d2ca9619a3</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>30fbdd54dbb6ec10daa50825ca961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>account_number_for_table_linens</element>
             <position>1</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>11212885dba6a450f20205d2ca9619a4</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>f4fbdd54dbb6ec10daa50825ca961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>95212885dba6a450f20205d2ca9619a4</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>78fbdd54dbb6ec10daa50825ca961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,153 +46,167 @@
             <element>setup_arrangements</element>
             <position>3</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>1d212885dba6a450f20205d2ca9619a4</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>f8fbdd54dbb6ec10daa50825ca961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>arrangements_other</element>
+            <position>4</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>7cfbdd54dbb6ec10daa50825ca961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_of_chairs</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>91212885dba6a450f20205d2ca9619a5</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>fcfbdd54dbb6ec10daa50825ca961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>19212885dba6a450f20205d2ca9619a5</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>70fbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>9d212885dba6a450f20205d2ca9619a5</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>f0fbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_rectangular_table</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>15212885dba6a450f20205d2ca9619a6</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>74fbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>long_rectangular_table</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>99212885dba6a450f20205d2ca9619a6</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>f4fbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>round_table</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>11212885dba6a450f20205d2ca9619a7</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>78fbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>95212885dba6a450f20205d2ca9619a7</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>f8fbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_srt</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>1d212885dba6a450f20205d2ca9619a7</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>7cfbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_lrt</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>91212885dba6a450f20205d2ca9619a8</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>fcfbdd54dbb6ec10daa50825ca96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_round</element>
-            <position>13</position>
+            <position>14</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-02-23 14:56:29</sys_created_on>
-            <sys_id>19212885dba6a450f20205d2ca9619a8</sys_id>
+            <sys_created_on>2021-03-05 21:33:38</sys_created_on>
+            <sys_id>70fbdd54dbb6ec10daa50825ca96192b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Room Reservation" display_value="Room Reservation" name="x_shce_event_manag_events" sys_domain="global" view="Default view">d5fbf3b2db06e490daa50825ca96194c</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-02-23 14:56:29</sys_updated_on>
+            <sys_updated_on>2021-03-05 21:33:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

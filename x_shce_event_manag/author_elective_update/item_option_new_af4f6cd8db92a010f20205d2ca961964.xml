@@ -159,7 +159,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Size of Tables:</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
-        <sys_parent display_value="Room Reservation">2c9aa494db92a010f20205d2ca961923</sys_parent>
+        <sys_parent display_value="">2c9aa494db92a010f20205d2ca961923</sys_parent>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>

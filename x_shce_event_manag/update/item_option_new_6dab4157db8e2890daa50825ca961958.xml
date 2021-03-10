@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="New Event">46ddfcd3db4e2890daa50825ca9619b3</cat_item>
+        <cat_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -49,7 +49,7 @@
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
-        <scale_max>5</scale_max>
+        <scale_max>100</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
@@ -60,7 +60,7 @@
         <sys_created_on>2021-02-05 21:18:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6dab4157db8e2890daa50825ca961958</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Number of chairs:</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>item_option_new_6dab4157db8e2890daa50825ca961958</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-02-05 21:19:49</sys_updated_on>
+        <sys_updated_on>2021-03-05 20:40:41</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

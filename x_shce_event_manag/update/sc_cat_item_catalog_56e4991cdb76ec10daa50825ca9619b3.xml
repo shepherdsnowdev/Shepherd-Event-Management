@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Room Reservation">2c9aa494db92a010f20205d2ca961923</sc_cat_item>
+        <sc_cat_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</sc_cat_item>
         <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2021-02-08 21:29:56</sys_created_on>
+        <sys_created_on>2021-03-05 21:02:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>265b68d4db92a010f20205d2ca96194f</sys_id>
+        <sys_id>56e4991cdb76ec10daa50825ca9619b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Catalog.Room Reservation</sys_name>
+        <sys_name>Service Catalog.Shepherd Event Request</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_265b68d4db92a010f20205d2ca96194f</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_56e4991cdb76ec10daa50825ca9619b3</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-02-08 21:29:56</sys_updated_on>
+        <sys_updated_on>2021-03-05 21:02:53</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>

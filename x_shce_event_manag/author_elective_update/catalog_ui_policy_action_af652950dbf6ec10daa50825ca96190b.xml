@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</catalog_item>
+        <catalog_variable>IO:b4c315d8db76ec10daa50825ca9619a7</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-05 22:15:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>af652950dbf6ec10daa50825ca96190b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>number_srt</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_af652950dbf6ec10daa50825ca96190b</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-05 22:15:42</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show &quot;Number&quot; field when choosing a short table">02256150dbf6ec10daa50825ca961971</ui_policy>
+        <variable>number_srt</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>catalog_ui_policy_action_af652950dbf6ec10daa50825ca96190b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</catalog_item><catalog_variable>IO:b4c315d8db76ec10daa50825ca9619a7</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-03-05 22:15:17</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>af652950dbf6ec10daa50825ca96190b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>number_srt</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>catalog_ui_policy_action_af652950dbf6ec10daa50825ca96190b</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-03-05 22:15:42</sys_updated_on><table/><ui_policy display_value="Show &quot;Number&quot; field when choosing a short table">02256150dbf6ec10daa50825ca961971</ui_policy><variable>number_srt</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1116637355</payload_hash>
+        <record_name>number_srt</record_name>
+        <reverted_from/>
+        <source>38643c9cdbb2ec10daa50825ca961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-05 22:15:42</sys_created_on>
+        <sys_id>3895ad50dbf6ec10daa50825ca9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780475f3df0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-05 22:15:42</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>bc95ad5080f6ec10afc7d92bf4d4a0c5</update_guid>
+        <update_guid_history>bc95ad5080f6ec10afc7d92bf4d4a0c5:1116637355,d085651054f6ec104cd140a2950df0e0:-71095160,fa756150fdf6ec107260197c38bc4479:555290748</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03-05-2021 05:23:20 PM">fc572114dbf6ec10daa50825ca96192c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-05 22:23:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2cd3ad4646ea453091f52f6f4aabd3a1</sys_id>
+        <sys_metadata>af652950dbf6ec10daa50825ca96190b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number_srt</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_af652950dbf6ec10daa50825ca96190b</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_af652950dbf6ec10daa50825ca96190b">3895ad50dbf6ec10daa50825ca9619c6</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-05 22:23:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="Events" max_length="40" name="x_shce_event_manag_events" sizeclass="1" type="collection">
         <element label="Account Number for Table Linens" max_length="20" name="account_number_for_table_linens" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Setup Arrangements" max_length="1000" name="arrangements_other" type="string"/>
         <element choice="3" label="Available Rooms" max_length="40" name="available_rooms" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Atrium (MR-M7)" sequence="10" value="Atrium (MR-M7)"/>
