@@ -42,17 +42,16 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>function_date</field>
-        <field_list>number,state,function_name,function_date,function_start_date_time,function_end_date_time,requester,function_location,short_description,sys_created_on</field_list>
-        <filter table="x_shce_event_manag_events">state!=3<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
-        </filter>
+        <field/>
+        <field_list>number,state,bill_to_department,bill_to_department.id,bill_to_account,function_name,function_start_date_time,function_end_date_time,requester.name,requester.phone</field_list>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
         <interval>year</interval>
-        <is_published>true</is_published>
+        <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
@@ -75,7 +74,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles>public</roles>
+        <roles/>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -83,7 +82,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>null</set_color>
+        <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -101,30 +100,30 @@
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2021-03-24 14:37:43</sys_created_on>
+        <sys_created_on>2021-04-07 20:38:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>51f2f992db83e850daa50825ca961919</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Events Calendar</sys_name>
+        <sys_id>e6bb8b7adb172410f20205d2ca96191d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>By Department/Cost Center</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
-        <sys_update_name>sys_report_51f2f992db83e850daa50825ca961919</sys_update_name>
+        <sys_update_name>sys_report_e6bb8b7adb172410f20205d2ca96191d</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-04-07 19:43:21</sys_updated_on>
+        <sys_updated_on>2021-04-07 20:38:45</sys_updated_on>
         <table>x_shce_event_manag_events</table>
-        <title>Events Calendar</title>
+        <title>By Department/Cost Center</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>function_start_date_time</trend_field>
-        <type>calendar</type>
+        <trend_field/>
+        <type>list</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>GLOBAL</user>
+        <user>group</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

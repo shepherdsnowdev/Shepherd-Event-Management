@@ -59,6 +59,7 @@
                 <element inactive_on_update="false" label="Plastic Banquet" sequence="40" value="plastic_banquet"/>
             </choice>
         </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    var gdt = new GlideDateTime(current.function_start_date_time);&#13;&#10;    var hour = Number(gdt.getLocalTime().getHourOfDayUTC());&#13;&#10;    var returnValue = '';&#13;&#10;&#13;&#10;    if (hour &lt; 11) {&#13;&#10;        returnValue = 'Breakfast';&#13;&#10;    } else if (hour &lt; 18) {&#13;&#10;        returnValue = 'Lunch';&#13;&#10;    } else {&#13;&#10;        returnValue = 'Dinner';&#13;&#10;    }&#13;&#10;&#13;&#10;    return returnValue; // return the calculated value&#13;&#10;    //return hour;&#13;&#10;&#13;&#10;})(current);" label="Meal" max_length="10" name="meal" read_only="true" type="string" virtual="true"/>
         <element label="Number needed" max_length="40" name="number_lrt" type="integer"/>
         <element label="Number of Chairs" max_length="40" name="number_of_chairs" type="integer"/>
         <element label="Number needed" max_length="40" name="number_round" type="integer"/>
