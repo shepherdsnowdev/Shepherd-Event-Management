@@ -22,7 +22,7 @@
         <sys_updated_by>DLADMIN</sys_updated_by>
         <sys_updated_on>2021-03-05 22:11:44</sys_updated_on>
         <table/>
-        <ui_policy display_value="Show &quot;Other Arrangements&quot; field">7074e110dbf6ec10daa50825ca96193b</ui_policy>
+        <ui_policy display_value="Show &quot;Other Arrangements&quot; field when &quot;Other&quot; is chosen">7074e110dbf6ec10daa50825ca96193b</ui_policy>
         <variable>arrangements_other</variable>
         <variable_set/>
         <visible>true</visible>

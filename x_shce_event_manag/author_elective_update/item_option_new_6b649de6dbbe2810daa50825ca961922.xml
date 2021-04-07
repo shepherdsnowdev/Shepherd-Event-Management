@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field>function_start_time</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>true</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>function_start_time</name>
+        <order>25</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Function Start Time</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_shce_event_manag_events</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-12 20:47:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6b649de6dbbe2810daa50825ca961922</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Function Start Time</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>item_option_new_6b649de6dbbe2810daa50825ca961922</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-16 22:00:41</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>10</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=6b649de6dbbe2810daa50825ca961922"/>
+    <fx_price action="DELETE" query="id=6b649de6dbbe2810daa50825ca961922"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>6b649de6dbbe2810daa50825ca961922</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-12 20:47:44</sys_created_on>
+        <sys_id>6494592adbbe2810daa50825ca9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-12 20:47:44</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>6b649de6dbbe2810daa50825ca961922</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-12 20:47:44</sys_created_on>
+        <sys_id>2094592adbbe2810daa50825ca9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-12 20:47:44</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>item_option_new_6b649de6dbbe2810daa50825ca961922</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field>function_start_time</field><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>true</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>function_start_time</name><order>25</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Function Start Time</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>x_shce_event_manag_events</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-03-12 20:47:44</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6b649de6dbbe2810daa50825ca961922</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Function Start Time</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>item_option_new_6b649de6dbbe2810daa50825ca961922</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-03-16 22:00:41</sys_updated_on><table/><tooltip/><type>10</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=6b649de6dbbe2810daa50825ca961922"/><fx_price action="delete_multiple" query="id=6b649de6dbbe2810daa50825ca961922"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>6b649de6dbbe2810daa50825ca961922</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-03-12 20:47:44</sys_created_on><sys_id>6494592adbbe2810daa50825ca9619c2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-03-12 20:47:44</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>6b649de6dbbe2810daa50825ca961922</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-03-12 20:47:44</sys_created_on><sys_id>2094592adbbe2810daa50825ca9619c1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-03-12 20:47:44</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-754687917</payload_hash>
+        <record_name>Function Start Time</record_name>
+        <reverted_from/>
+        <source>38643c9cdbb2ec10daa50825ca961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-16 22:00:41</sys_created_on>
+        <sys_id>8cab023bdbf2ec10daa50825ca96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783d0e29300000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-16 22:00:41</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>04ab023bd5f2ec10169280927c15a24e</update_guid>
+        <update_guid_history>04ab023bd5f2ec10169280927c15a24e:-754687917,806a06f7f9f2ec104ade0814cc0c9585:-1055657173,10298a77ccf2ec10e71b049a98691d6f:-754687917,a709ceb307f2ec10458778c91903b0a6:90886465,6094592abbbe281008e7e2957accbac6:61226259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03-16-2021 06:40:14 PM">a7a456f3db36ec10daa50825ca961963</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-16 22:40:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>ad26b21383774398b75e0ca34da8d990</sys_id>
+        <sys_metadata>6b649de6dbbe2810daa50825ca961922</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Function Start Time</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>item_option_new_6b649de6dbbe2810daa50825ca961922</sys_update_name>
+        <sys_update_version display_value="item_option_new_6b649de6dbbe2810daa50825ca961922">8cab023bdbf2ec10daa50825ca96194e</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-16 22:40:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

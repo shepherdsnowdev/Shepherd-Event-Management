@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_shce_event_manag.event manager" name="x_shce_event_manag.event manager">3b5675a0db13a090f20205d2ca96193a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-31 14:39:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>677671e0db13a090f20205d2ca961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3b5675a0db13a090f20205d2ca96193a</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_embedded_help_role_677671e0db13a090f20205d2ca961950</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-31 14:39:30</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

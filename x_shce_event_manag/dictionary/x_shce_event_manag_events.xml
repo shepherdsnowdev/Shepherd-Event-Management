@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Events" max_length="40" name="x_shce_event_manag_events" sizeclass="1" type="collection">
+    <element audit="true" extends="task" label="Events" max_length="40" name="x_shce_event_manag_events" sizeclass="123" type="collection">
         <element label="Account Number for Table Linens" max_length="20" name="account_number_for_table_linens" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Setup Arrangements" max_length="1000" name="arrangements_other" type="string"/>
         <element choice="3" label="Available Rooms" max_length="40" name="available_rooms" type="choice">
@@ -17,23 +17,40 @@
                 <element inactive_on_update="false" label="Other" sequence="200" value="Other"/>
             </choice>
         </element>
-        <element label="Bill to Account" max_length="10" name="bill_to_account" type="string"/>
-        <element label="Bill to Department/Cost Center" max_length="32" name="bill_to_department" reference="cmn_department" type="reference"/>
+        <element label="Cost Center" max_length="10" name="bill_to_account" type="string"/>
+        <element label="Bill to Department" max_length="32" name="bill_to_department" reference="cmn_department" type="reference"/>
         <element choice="1" label="Dinnerware" max_length="40" name="dinnerware" type="choice">
-            <choice/>
-        </element>
-        <element label="Food Service" max_length="40" name="food_service" type="boolean"/>
-        <element label="Function Approver" max_length="32" name="function_approver" reference="sys_user" type="reference"/>
-        <element label="Function Date/Time" max_length="40" name="function_date_time" type="glide_date_time"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Function Day of the Week" max_length="10" name="function_day_of_the_week" read_only="true" type="string"/>
-        <element choice="1" label="Function Location" max_length="50" name="function_location" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Test" sequence="0" value="Test"/>
-                <element inactive_on_update="false" label="Other" sequence="1" value="100"/>
+                <element inactive_on_update="false" label="China" sequence="0" value="China"/>
+                <element inactive_on_update="false" label="Disposable" sequence="1" value="Disposable"/>
             </choice>
         </element>
-        <element label="Function Location - Other" max_length="50" name="function_location_other" type="string"/>
+        <element label="Food Items Ordered" max_length="5000" name="food_items_ordered" type="string"/>
+        <element label="Food Service" max_length="40" name="food_service" type="boolean"/>
+        <element label="Function Approver" max_length="32" name="function_approver" reference="sys_user" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var gdt = new GlideDateTime(current.function_start_date_time.toString());&#13;&#10;&#9;return gdt.getDate();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Function Date" max_length="40" name="function_date" read_only="true" type="glide_date" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var gdt = new GlideDateTime(current.function_start_date_time.toString());&#13;&#10;&#9;var days = [&quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;, &quot;Sunday&quot;];&#13;&#10;&#9;&#13;&#10;&#9;return days[gdt.getDayOfWeekLocalTime()-1];&#13;&#10;&#9;&#13;&#10;})(current);" label="Function Day of the Week" max_length="10" name="function_day_of_the_week" read_only="true" type="string" virtual="true"/>
+        <element label="Function End Date/Time" max_length="40" name="function_end_date_time" type="glide_date_time"/>
+        <element choice="1" label="Function Location" max_length="50" name="function_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Classroom A" sequence="0" value="Classroom A"/>
+                <element inactive="true" inactive_on_update="true" label="Department Food Supplies Request" sequence="0" value="Department Food Supplies Request"/>
+                <element inactive_on_update="false" label="Classroom B" sequence="1" value="Classroom B"/>
+                <element inactive_on_update="false" label="Classroom C" sequence="2" value="Classroom C"/>
+                <element inactive_on_update="false" label="Atrium" sequence="3" value="Atrium"/>
+                <element inactive_on_update="false" label="Callaway Auditorium" sequence="4" value="Callaway Auditorium"/>
+                <element inactive_on_update="false" label="Guest Dining Room" sequence="5" value="Guest Dining Room"/>
+                <element inactive_on_update="false" label="Livingston Gym" sequence="6" value="Livingston Gym"/>
+                <element inactive_on_update="false" label="Board Room" sequence="7" value="Board Room"/>
+                <element inactive_on_update="false" label="Garden and Grill" sequence="8" value="Garden and Grill"/>
+                <element inactive_on_update="false" label="Plaza Level" sequence="9" value="Plaza Level"/>
+                <element inactive_on_update="false" label="Other" sequence="10" value="Other"/>
+                <element inactive_on_update="false" label="In Department" sequence="11" value="In Department"/>
+            </choice>
+        </element>
+        <element label="Other" max_length="50" name="function_location_other" type="string"/>
         <element label="Function Name" max_length="50" name="function_name" type="string"/>
+        <element label="Function Start Date/Time" mandatory="true" max_length="40" name="function_start_date_time" type="glide_date_time"/>
         <element choice="1" label="Long Rectangular Table" max_length="40" name="long_rectangular_table" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No linens" sequence="10" value="no_linen"/>
@@ -47,7 +64,7 @@
         <element label="Number needed" max_length="40" name="number_round" type="integer"/>
         <element label="Number needed" max_length="40" name="number_srt" type="integer"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element label="Request Made on" max_length="40" name="request_made" type="glide_date"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Request Made on" max_length="40" name="request_made" type="glide_date" use_dynamic_default="true"/>
         <element label="Room Reservation" max_length="40" name="room_reservation" type="boolean"/>
         <element choice="1" label="60&quot; Round Table" max_length="40" name="round_table" type="choice">
             <choice>
@@ -84,6 +101,7 @@
                 <element inactive_on_update="false" label="Plastic Banquet" sequence="40" value="plastic_banquet"/>
             </choice>
         </element>
+        <element label="Spend category" max_length="10" name="spend_category" type="string"/>
         <element label="Time Clean-up Possible" max_length="40" name="time_clean_up_possible" type="glide_time"/>
         <element label="Time Food Served" max_length="40" name="time_food_served" type="glide_time"/>
         <element label="Total Attendees" max_length="40" name="total_attendees" type="integer"/>

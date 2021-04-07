@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_shce_event_manag_events" version="2" view="RPT51f2f992db83e850daa50825ca961919">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>b30a8adedb0b2850f20205d2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>370a8adedb0b2850f20205d2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>function_name</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>b70a8adedb0b2850f20205d2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>function_date</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>3b0a8adedb0b2850f20205d2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>function_start_date_time</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>bb0a8adedb0b2850f20205d2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>function_end_date_time</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>3f0a8adedb0b2850f20205d2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requester</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>bf0a8adedb0b2850f20205d2ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>function_location</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>330a8adedb0b2850f20205d2ca961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>b30a8adedb0b2850f20205d2ca961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_shce_event_manag_events" element="NULL" name="x_shce_event_manag_events" parent="NULL" relationship="NULL" sys_domain="global" view="1df271d2db83e850daa50825ca9619f2">370a8adedb0b2850f20205d2ca96192e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_id>370a8adedb0b2850f20205d2ca961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_shce_event_manag_events</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-24 16:18:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>370a8adedb0b2850f20205d2ca96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_shce_event_manag_events</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_ui_list_x_shce_event_manag_events_RPT51f2f992db83e850daa50825ca961919</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:18:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt51f2f992db83e850daa50825ca961919" name="RPT51f2f992db83e850daa50825ca961919">1df271d2db83e850daa50825ca9619f2</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

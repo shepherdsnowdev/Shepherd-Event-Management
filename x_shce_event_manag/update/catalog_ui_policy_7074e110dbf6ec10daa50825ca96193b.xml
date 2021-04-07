@@ -16,7 +16,7 @@
         <model_id/>
         <model_table/>
         <on_load>false</on_load>
-        <order>110</order>
+        <order>140</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -26,7 +26,7 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Show "Other Arrangements" field</short_description>
+        <short_description>Show "Other Arrangements" field when "Other" is chosen</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2021-03-05 22:11:19</sys_created_on>
@@ -34,8 +34,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7074e110dbf6ec10daa50825ca96193b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Show "Other Arrangements" field</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Show "Other Arrangements" field when "Other" is chosen</sys_name>
         <sys_overrides/>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>catalog_ui_policy_7074e110dbf6ec10daa50825ca96193b</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-03-05 22:13:37</sys_updated_on>
+        <sys_updated_on>2021-03-10 20:01:00</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

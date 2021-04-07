@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Shepherd Event Request">46ddfcd3db4e2890daa50825ca9619b3</catalog_item>
+        <catalog_variable>IO:69581d10dbb6ec10daa50825ca961983</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>110</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-10 14:46:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ff9ea935db766410daa50825ca96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cnts_tables</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ff9ea935db766410daa50825ca96199c</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-10 14:46:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set up initial field visibility on load">958321dcdbb6ec10daa50825ca961932</ui_policy>
+        <variable>cnts_tables</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

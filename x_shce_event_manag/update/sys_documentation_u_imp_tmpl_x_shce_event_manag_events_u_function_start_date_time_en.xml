@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_function_start_date_time" label="Function Start Date/Time" language="en" table="u_imp_tmpl_x_shce_event_manag_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_function_start_date_time</element>
+            <help/>
+            <hint/>
+            <label>Function Start Date/Time</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_shce_event_manag_events</name>
+            <plural>Function Start Date/Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-17 00:44:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3e117e77dbb6ec10daa50825ca961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Function Start Date/Time</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_shce_event_manag_events_u_function_start_date_time_en</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-17 00:44:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

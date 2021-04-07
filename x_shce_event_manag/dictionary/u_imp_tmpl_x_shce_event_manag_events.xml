@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Shce Event Manag Events" max_length="40" name="u_imp_tmpl_x_shce_event_manag_events" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="u_due_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Function End Date/Time" max_length="40" name="u_function_end_date_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Function Start Date/Time" max_length="40" name="u_function_start_date_time" type="string"/>
+    </element>
+</database>

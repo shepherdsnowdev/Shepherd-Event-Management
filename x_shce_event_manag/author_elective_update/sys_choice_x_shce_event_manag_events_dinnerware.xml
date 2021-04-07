@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dinnerware" table="x_shce_event_manag_events" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dinnerware</element>
+            <name>x_shce_event_manag_events</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-10 19:52:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a1b4f271dbfa6410daa50825ca96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>dinnerware</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_choice_x_shce_event_manag_events_dinnerware</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-10 19:52:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dinnerware</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>China</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>0</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-10 19:52:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29b4f271dbfa6410daa50825ca96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-10 19:52:20</sys_updated_on>
+            <value>China</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dinnerware</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disposable</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <sequence>1</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-03-10 19:52:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69b4f271dbfa6410daa50825ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-03-10 19:52:20</sys_updated_on>
+            <value>Disposable</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

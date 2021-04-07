@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -19,7 +19,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>Set Day of Week</name>
-        <order>100</order>
+        <order>110</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -29,9 +29,9 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	var gdt = new GlideDateTime(current.function_date_time);
+	var gdt = new GlideDateTime(current.function_start_date_time);
 	var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-	current.setValue('function_day_of_the_week',days[gdt.getDayOfWeekLocalTime()-1]);
+	current.function_day_of_the_week = days[gdt.getDayOfWeekLocalTime()-1];
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ad37bc9bdb0e2890daa50825ca9619b5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Set Day of Week</sys_name>
         <sys_overrides/>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
@@ -50,7 +50,7 @@
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>sys_script_ad37bc9bdb0e2890daa50825ca9619b5</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-02-05 19:56:31</sys_updated_on>
+        <sys_updated_on>2021-03-24 16:10:05</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Events activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_shce_event_manag_events_activity.fields</name>
+        <read_roles/>
+        <suffix>x_shce_event_manag</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-04-05 18:32:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3dcb1816dbdb6010daa50825ca96198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>glide.ui.x_shce_event_manag_events_activity.fields</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_properties_3dcb1816dbdb6010daa50825ca96198b</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-04-05 18:41:03</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,opened_by,work_notes,comments,*Attachments*,round_table,account_number_for_table_linens,active,available_rooms,bill_to_account,bill_to_department,comments_and_work_notes,sys_created_on,sys_created_by,description,dinnerware,expected_start,food_items_ordered,food_service,function_approver,function_date,function_day_of_the_week,function_end_date_time,function_location,function_name,function_start_date_time,location,long_rectangular_table,number,number_lrt,number_round,number_srt,number_of_chairs,opened_at,function_location_other,arrangements_other,request_made,requester,room_reservation,service_requested,setup_arrangements,short_rectangular_table,short_description,time_clean_up_possible,time_food_served,total_attendees,sys_updated_on,sys_updated_by,work_notes_list</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3dcb1816dbdb6010daa50825ca96198b"/>
+</record_update>

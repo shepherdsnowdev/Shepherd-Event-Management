@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>function_date_time</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-04 21:17:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c032004bdb06e490daa50825ca9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>function_date_time</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c032004bdb06e490daa50825ca9619c1</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-04 21:17:52</sys_updated_on>
+        <table>x_shce_event_manag_events</table>
+        <ui_policy display_value="Field controls for Event form">dee04c0bdb06e490daa50825ca96195b</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_ui_policy_action_c032004bdb06e490daa50825ca9619c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>function_date_time</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-02-04 21:17:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c032004bdb06e490daa50825ca9619c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>function_date_time</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>sys_ui_policy_action_c032004bdb06e490daa50825ca9619c1</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-02-04 21:17:52</sys_updated_on><table>x_shce_event_manag_events</table><ui_policy display_value="Field controls for Event form">dee04c0bdb06e490daa50825ca96195b</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2065549319</payload_hash>
+        <record_name>function_date_time</record_name>
+        <reverted_from/>
+        <source>4658dffadb02e490daa50825ca9619da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-02-04 21:17:52</sys_created_on>
+        <sys_id>4b32004bdb06e490daa50825ca9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776ee897ce0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-02-04 21:17:52</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4332004bb006e49046768557809f27e6</update_guid>
+        <update_guid_history>4332004bb006e49046768557809f27e6:-2065549319</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-12 20:44:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>a6f459cff50d4196a61bf59a6097a5a9</sys_id>
+        <sys_metadata>c032004bdb06e490daa50825ca9619c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>function_date_time</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent display_value="Field controls for Event form on Load">dee04c0bdb06e490daa50825ca96195b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c032004bdb06e490daa50825ca9619c1</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c032004bdb06e490daa50825ca9619c1">4b32004bdb06e490daa50825ca9619e6</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-12 20:44:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

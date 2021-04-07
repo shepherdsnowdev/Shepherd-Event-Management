@@ -37,7 +37,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>number_of_chairs</name>
-        <order>60</order>
+        <order>230</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Number of chairs:</question_text>
@@ -60,7 +60,7 @@
         <sys_created_on>2021-02-05 21:18:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6dab4157db8e2890daa50825ca961958</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Number of chairs:</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>item_option_new_6dab4157db8e2890daa50825ca961958</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-03-05 20:40:41</sys_updated_on>
+        <sys_updated_on>2021-03-16 21:53:11</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

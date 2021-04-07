@@ -37,10 +37,10 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>cnte_room_res</name>
-        <order>99</order>
+        <order>299</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text/>
+        <question_text>***END Room Reservation Container</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,15 +60,15 @@
         <sys_created_on>2021-03-05 20:53:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d7929558db76ec10daa50825ca961991</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>cnte_room_res</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>***END Room Reservation Container</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>item_option_new_d7929558db76ec10daa50825ca961991</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-03-05 21:19:32</sys_updated_on>
+        <sys_updated_on>2021-03-10 16:05:55</sys_updated_on>
         <table/>
         <tooltip/>
         <type>20</type>

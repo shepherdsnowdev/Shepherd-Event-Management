@@ -7,8 +7,11 @@
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
-	return '';  // return the calculated value
-
+	var gdt = new GlideDateTime(current.function_start_date_time.toString());
+	var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+	
+	return days[gdt.getDayOfWeekLocalTime()-1];
+	
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
@@ -54,7 +57,7 @@
         <sys_created_on>2021-02-04 18:39:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a8fd533edb42e490daa50825ca961971</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Function Day of the Week</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
@@ -62,14 +65,14 @@
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>sys_dictionary_x_shce_event_manag_events_function_day_of_the_week</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-02-05 19:35:01</sys_updated_on>
+        <sys_updated_on>2021-04-06 19:53:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
