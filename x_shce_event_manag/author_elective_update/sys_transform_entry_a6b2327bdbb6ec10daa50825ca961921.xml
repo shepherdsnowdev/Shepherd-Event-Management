@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>ignore</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="u_imp_tmpl_x_shce_event_manag_events">9ab2fe3bdbb6ec10daa50825ca96199b</map>
+        <reference_value_field/>
+        <source_field>u_bill_to_depa_nt_cost_center</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_imp_tmpl_x_shce_event_manag_events</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-17 00:51:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a6b2327bdbb6ec10daa50825ca961921</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_bill_to_depa_nt_cost_center</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_transform_entry_a6b2327bdbb6ec10daa50825ca961921</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-17 00:51:31</sys_updated_on>
+        <target_field>bill_to_department</target_field>
+        <target_table>x_shce_event_manag_events</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_transform_entry_a6b2327bdbb6ec10daa50825ca961921</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;ignore&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="u_imp_tmpl_x_shce_event_manag_events"&gt;9ab2fe3bdbb6ec10daa50825ca96199b&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_bill_to_depa_nt_cost_center&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_imp_tmpl_x_shce_event_manag_events&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-17 00:51:31&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;a6b2327bdbb6ec10daa50825ca961921&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_bill_to_depa_nt_cost_center&lt;/sys_name&gt;&lt;sys_package display_value="Event Management" source="x_shce_event_manag"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Event Management"&gt;8658dffadb02e490daa50825ca9619d7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_a6b2327bdbb6ec10daa50825ca961921&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-17 00:51:31&lt;/sys_updated_on&gt;&lt;target_field&gt;bill_to_department&lt;/target_field&gt;&lt;target_table&gt;x_shce_event_manag_events&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1651980121</payload_hash>
+        <record_name>u_bill_to_depa_nt_cost_center</record_name>
+        <reverted_from/>
+        <source>38643c9cdbb2ec10daa50825ca961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-17 00:51:31</sys_created_on>
+        <sys_id>e2b2327bdbb6ec10daa50825ca961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783daa906c0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-17 00:51:31</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>6ab2327b7fb6ec1005fc45a8284fb724</update_guid>
+        <update_guid_history>6ab2327b7fb6ec1005fc45a8284fb724:-1651980121,a6b2327b63b6ec10812e0b769fb48322:-499263663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-04-08 00:13:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>22d1d797c0464fe0b0b05e38d6bac400</sys_id>
+        <sys_metadata>a6b2327bdbb6ec10daa50825ca961921</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_bill_to_depa_nt_cost_center</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_a6b2327bdbb6ec10daa50825ca961921</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_a6b2327bdbb6ec10daa50825ca961921">e2b2327bdbb6ec10daa50825ca961925</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-04-08 00:13:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

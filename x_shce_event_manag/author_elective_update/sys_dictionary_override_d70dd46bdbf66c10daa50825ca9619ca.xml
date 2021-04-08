@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assignment_group</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_shce_event_manag_events</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>nameINSVN.ATC &amp; DME,SVN.Biomed,SVN.Engineering</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-15 19:19:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d70dd46bdbf66c10daa50825ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_dictionary_override_d70dd46bdbf66c10daa50825ca9619ca</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-15 19:19:18</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management">8658dffadb02e490daa50825ca9619d7</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_dictionary_override_d70dd46bdbf66c10daa50825ca9619ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>assignment_group</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_shce_event_manag_events</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual>nameINSVN.ATC &amp; DME,SVN.Biomed,SVN.Engineering</reference_qual><reference_qual_override>true</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2021-03-15 19:19:18</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d70dd46bdbf66c10daa50825ca9619ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>assignment_group</sys_name><sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope><sys_update_name>sys_dictionary_override_d70dd46bdbf66c10daa50825ca9619ca</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2021-03-15 19:19:18</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>-621744635</payload_hash>
+        <record_name>assignment_group</record_name>
+        <reverted_from/>
+        <source>694858e3dbf66c10daa50825ca9619aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-15 19:19:18</sys_created_on>
+        <sys_id>1e1d186bdbf66c10daa50825ca961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17837540bf50000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-15 19:19:18</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>161d186b21f66c1041a0959e11bac494</update_guid>
+        <update_guid_history>161d186b21f66c1041a0959e11bac494:-621744635</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-03-15 19:20:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>42e8dcee076d443b90e88042ae27ac91</sys_id>
+        <sys_metadata>d70dd46bdbf66c10daa50825ca9619ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_parent display_value="x_shce_event_manag_events">c69a937adb42e490daa50825ca9619a7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_scope_delete display_value="">370ee25e31cd4b25a86f204b0aa744c1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_d70dd46bdbf66c10daa50825ca9619ca</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_d70dd46bdbf66c10daa50825ca9619ca">1e1d186bdbf66c10daa50825ca961994</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-03-15 19:20:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
