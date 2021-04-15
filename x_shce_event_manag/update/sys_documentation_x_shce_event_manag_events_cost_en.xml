@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cost" label="Cost" language="en" table="x_shce_event_manag_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <help/>
+            <hint/>
+            <label>Cost</label>
+            <language>en</language>
+            <name>x_shce_event_manag_events</name>
+            <plural>Costs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-08 14:19:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f18e7e03db976410f20205d2ca96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cost</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_documentation_x_shce_event_manag_events_cost_en</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-08 14:19:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

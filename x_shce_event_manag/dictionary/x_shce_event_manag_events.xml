@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Events" max_length="40" name="x_shce_event_manag_events" sizeclass="123" type="collection">
+    <element audit="true" extends="task" label="Events" max_length="40" name="x_shce_event_manag_events" sizeclass="84" type="collection">
         <element label="Account Number for Table Linens" max_length="20" name="account_number_for_table_linens" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Setup Arrangements" max_length="1000" name="arrangements_other" type="string"/>
         <element choice="3" label="Available Rooms" max_length="40" name="available_rooms" type="choice">
@@ -18,7 +18,8 @@
             </choice>
         </element>
         <element label="Cost Center" max_length="10" name="bill_to_account" type="string"/>
-        <element label="Bill to Department" max_length="32" name="bill_to_department" reference="cmn_department" type="reference"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,&#13;&#10;ref_ac_display_value=false,&#13;&#10;ref_ac_columns=name;id,&#13;&#10;ref_ac_columns_search=true,&#13;&#10;ref_ac_order_by=name" label="Bill to Department" max_length="32" name="bill_to_department" reference="cmn_department" type="reference"/>
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
         <element choice="1" label="Dinnerware" max_length="40" name="dinnerware" type="choice">
             <choice>
                 <element inactive_on_update="false" label="China" sequence="0" value="China"/>
@@ -59,7 +60,7 @@
                 <element inactive_on_update="false" label="Plastic Banquet" sequence="40" value="plastic_banquet"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    var gdt = new GlideDateTime(current.function_start_date_time);&#13;&#10;    var hour = Number(gdt.getLocalTime().getHourOfDayUTC());&#13;&#10;    var returnValue = '';&#13;&#10;&#13;&#10;    if (hour &lt; 11) {&#13;&#10;        returnValue = 'Breakfast';&#13;&#10;    } else if (hour &lt; 18) {&#13;&#10;        returnValue = 'Lunch';&#13;&#10;    } else {&#13;&#10;        returnValue = 'Dinner';&#13;&#10;    }&#13;&#10;&#13;&#10;    return returnValue; // return the calculated value&#13;&#10;    //return hour;&#13;&#10;&#13;&#10;})(current);" label="Meal" max_length="10" name="meal" read_only="true" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    var gdt = new GlideDateTime(current.function_start_date_time);&#13;&#10;    var hour = Number(gdt.getLocalTime().getHourOfDayUTC());&#13;&#10;    var returnValue = '';&#13;&#10;&#13;&#10;    if (hour &lt; 11) {&#13;&#10;        returnValue = 'Breakfast';&#13;&#10;    } else if (hour &lt; 13) {&#13;&#10;        returnValue = 'Lunch';&#13;&#10;    } else if (hour &lt; 16) {&#13;&#10;        returnValue = 'Snack';&#13;&#10;    } else {&#13;&#10;        returnValue = 'Dinner';&#13;&#10;    }&#13;&#10;&#13;&#10;    return returnValue; // return the calculated value&#13;&#10;    //return hour;&#13;&#10;&#13;&#10;})(current);" label="Meal" max_length="10" name="meal" read_only="true" type="string" virtual="true"/>
         <element label="Number needed" max_length="40" name="number_lrt" type="integer"/>
         <element label="Number of Chairs" max_length="40" name="number_of_chairs" type="integer"/>
         <element label="Number needed" max_length="40" name="number_round" type="integer"/>

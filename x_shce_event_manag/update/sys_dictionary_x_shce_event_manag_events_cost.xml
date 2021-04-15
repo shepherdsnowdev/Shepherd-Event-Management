@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_shce_event_manag_events">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="cost" table="x_shce_event_manag_events">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
-        <audit>true</audit>
-        <calculation/>
-        <choice>0</choice>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Cost</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>cost</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Currency">currency</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>20</max_length>
         <name>x_shce_event_manag_events</name>
         <next_element/>
         <primary>false</primary>
@@ -42,23 +47,23 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>84</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2021-02-04 18:24:41</sys_created_on>
+        <sys_created_on>2021-04-08 14:19:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c69a937adb42e490daa50825ca9619a7</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>x_shce_event_manag_events</sys_name>
+        <sys_id>765dbacfdb576410f20205d2ca961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
-        <sys_update_name>sys_dictionary_x_shce_event_manag_events_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-08 11:15:07</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_shce_event_manag_events_cost</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-04-08 14:19:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

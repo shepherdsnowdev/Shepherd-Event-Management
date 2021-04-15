@@ -4,27 +4,27 @@
             <element>function_approver</element>
             <position>0</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-04-06 19:57:29</sys_created_on>
-            <sys_id>c4d87d66db9fa010f20205d2ca961928</sys_id>
+            <sys_created_on>2021-04-08 14:19:56</sys_created_on>
+            <sys_id>03be3243db976410f20205d2ca9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Financial Info" display_value="Financial Info" name="x_shce_event_manag_events" sys_domain="global" view="Default view">9c87992edbbe2810daa50825ca961963</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-04-06 19:57:29</sys_updated_on>
+            <sys_updated_on>2021-04-08 14:19:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bill_to_department</element>
+            <element>cost</element>
             <position>1</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-04-06 19:57:29</sys_created_on>
-            <sys_id>4cd87d66db9fa010f20205d2ca961928</sys_id>
+            <sys_created_on>2021-04-08 14:19:56</sys_created_on>
+            <sys_id>87be3243db976410f20205d2ca9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Financial Info" display_value="Financial Info" name="x_shce_event_manag_events" sys_domain="global" view="Default view">9c87992edbbe2810daa50825ca961963</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-04-06 19:57:29</sys_updated_on>
+            <sys_updated_on>2021-04-08 14:19:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,41 +32,55 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-04-06 19:57:29</sys_created_on>
-            <sys_id>c0d87d66db9fa010f20205d2ca961929</sys_id>
+            <sys_created_on>2021-04-08 14:19:56</sys_created_on>
+            <sys_id>0fbe3243db976410f20205d2ca9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Financial Info" display_value="Financial Info" name="x_shce_event_manag_events" sys_domain="global" view="Default view">9c87992edbbe2810daa50825ca961963</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-04-06 19:57:29</sys_updated_on>
+            <sys_updated_on>2021-04-08 14:19:56</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bill_to_account</element>
+            <element>bill_to_department</element>
             <position>3</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-04-06 19:57:29</sys_created_on>
-            <sys_id>48d87d66db9fa010f20205d2ca961929</sys_id>
+            <sys_created_on>2021-04-08 14:19:56</sys_created_on>
+            <sys_id>83be3243db976410f20205d2ca9619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Financial Info" display_value="Financial Info" name="x_shce_event_manag_events" sys_domain="global" view="Default view">9c87992edbbe2810daa50825ca961963</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-04-06 19:57:29</sys_updated_on>
+            <sys_updated_on>2021-04-08 14:19:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bill_to_account</element>
+            <position>4</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-08 14:19:56</sys_created_on>
+            <sys_id>0bbe3243db976410f20205d2ca9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial Info" display_value="Financial Info" name="x_shce_event_manag_events" sys_domain="global" view="Default view">9c87992edbbe2810daa50825ca961963</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-08 14:19:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>spend_category</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2021-04-06 19:57:29</sys_created_on>
-            <sys_id>ccd87d66db9fa010f20205d2ca961929</sys_id>
+            <sys_created_on>2021-04-08 14:19:56</sys_created_on>
+            <sys_id>8fbe3243db976410f20205d2ca9619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Financial Info" display_value="Financial Info" name="x_shce_event_manag_events" sys_domain="global" view="Default view">9c87992edbbe2810daa50825ca961963</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2021-04-06 19:57:29</sys_updated_on>
+            <sys_updated_on>2021-04-08 14:19:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

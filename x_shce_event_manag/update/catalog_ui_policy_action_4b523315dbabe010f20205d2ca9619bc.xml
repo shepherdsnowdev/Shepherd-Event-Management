@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Shepherd Department Food Supplies Request">ef6e7066db9ba010f20205d2ca961907</catalog_item>
+        <catalog_variable>IO:141277d1dbabe010f20205d2ca9619e3</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-04-15 17:51:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4b523315dbabe010f20205d2ca9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>food_service</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_4b523315dbabe010f20205d2ca9619bc</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-04-15 17:51:56</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Dummy fields on Department Food Supplies Request">f02b2566db5fa010f20205d2ca9619f2</ui_policy>
+        <variable>food_service</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
