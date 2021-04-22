@@ -83,7 +83,7 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>59fbf3b2db06e490daa50825ca96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>System Data</sys_name>
+            <sys_name>x_shce_event_manag_events</sys_name>
             <sys_overrides/>
             <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
             <sys_policy/>

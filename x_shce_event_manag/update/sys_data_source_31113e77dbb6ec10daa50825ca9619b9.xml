@@ -11,6 +11,8 @@
 	// Add your code here to insert data to import_set_table
 
 })(import_set_table);]]></data_loader>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
@@ -75,4 +77,5 @@
         <xpath_root_node/>
         <zipped>false</zipped>
     </sys_data_source>
+    <sys_variable_value action="delete_multiple" query="document_key=31113e77dbb6ec10daa50825ca9619b9"/>
 </record_update>

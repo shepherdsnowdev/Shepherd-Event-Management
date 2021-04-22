@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_nuvo_eam_facilities_work_orders" version="2" view="RPTca0c9ad3db63a410f20205d2ca961999">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_nuvo_eam_facilities_work_orders" element="NULL" name="x_nuvo_eam_facilities_work_orders" parent="NULL" relationship="NULL" sys_domain="global" view="460c9ed3db63a410f20205d2ca96198a">060c9ed3db63a410f20205d2ca96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-21 16:42:30</sys_created_on>
+            <sys_id>0e0c9ed3db63a410f20205d2ca96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-21 16:42:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset</element>
+            <list_id display_value="x_nuvo_eam_facilities_work_orders" element="NULL" name="x_nuvo_eam_facilities_work_orders" parent="NULL" relationship="NULL" sys_domain="global" view="460c9ed3db63a410f20205d2ca96198a">060c9ed3db63a410f20205d2ca96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-21 16:42:30</sys_created_on>
+            <sys_id>060c9ed3db63a410f20205d2ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-21 16:42:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_nuvo_eam_facilities_work_orders" element="NULL" name="x_nuvo_eam_facilities_work_orders" parent="NULL" relationship="NULL" sys_domain="global" view="460c9ed3db63a410f20205d2ca96198a">060c9ed3db63a410f20205d2ca96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-21 16:42:30</sys_created_on>
+            <sys_id>860c9ed3db63a410f20205d2ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-21 16:42:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_nuvo_eam_facilities_work_orders" element="NULL" name="x_nuvo_eam_facilities_work_orders" parent="NULL" relationship="NULL" sys_domain="global" view="460c9ed3db63a410f20205d2ca96198a">060c9ed3db63a410f20205d2ca96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-21 16:42:30</sys_created_on>
+            <sys_id>0a0c9ed3db63a410f20205d2ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-21 16:42:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_nuvo_eam_facilities_work_orders" element="NULL" name="x_nuvo_eam_facilities_work_orders" parent="NULL" relationship="NULL" sys_domain="global" view="460c9ed3db63a410f20205d2ca96198a">060c9ed3db63a410f20205d2ca96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-21 16:42:30</sys_created_on>
+            <sys_id>8a0c9ed3db63a410f20205d2ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-21 16:42:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_nuvo_eam_facilities_work_orders</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2021-04-21 16:42:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>060c9ed3db63a410f20205d2ca96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nuvo_eam_facilities_work_orders</sys_name>
+            <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+            <sys_update_name>sys_ui_list_x_nuvo_eam_facilities_work_orders_RPTca0c9ad3db63a410f20205d2ca961999</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2021-04-21 16:42:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptca0c9ad3db63a410f20205d2ca961999" name="RPTca0c9ad3db63a410f20205d2ca961999">460c9ed3db63a410f20205d2ca96198a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

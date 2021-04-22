@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Room Reservations">789d9a17db63a410f20205d2ca961986</legacy_page>
+        <name>PA Shepherd Event Manag - New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-04-21 16:49:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3c9d9a17db63a410f20205d2ca961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Shepherd Event Manag - New Tab 2</sys_name>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_grid_canvas_3c9d9a17db63a410f20205d2ca961987</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-04-21 16:49:14</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>
