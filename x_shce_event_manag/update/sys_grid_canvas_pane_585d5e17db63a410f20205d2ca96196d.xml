@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Shepherd Event Manag - New Tab">6a32b51bdb6f6410f20205d2ca961905</grid_canvas>
-        <height>9</height>
+        <height>16</height>
         <portal_widget display_value="Created 04-21-2021 12:48:06 PM">545d5e17db63a410f20205d2ca96196c</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
@@ -10,7 +10,7 @@
         <sys_created_on>2021-04-21 16:48:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>585d5e17db63a410f20205d2ca96196d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>6a32b51bdb6f6410f20205d2ca961905</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
@@ -18,7 +18,7 @@
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_585d5e17db63a410f20205d2ca96196d</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-04-21 16:48:52</sys_updated_on>
+        <sys_updated_on>2021-04-27 18:08:12</sys_updated_on>
         <width>2</width>
     </sys_grid_canvas_pane>
 </record_update>
