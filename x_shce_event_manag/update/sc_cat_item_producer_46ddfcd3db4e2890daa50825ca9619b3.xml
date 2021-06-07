@@ -16,8 +16,10 @@
 <p><br /></p>
 <p>If you are wanting to just order department food supplies, please use the <a href="#mce_temp_url#" rel="nofollow">Department Food Supplies Request Form</a> instead.</p>
 <p><br /></p>
-<p style="text-align: center;"><span style="font-size: 14pt; color: #ff0000;"><strong>We ask that all catering event orders are booked at least 2 weeks in advance.</strong></span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; color: #ff0000;"><strong>Thank you for your cooperation!</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; color: #0000ff;"><strong>We ask that all catering event orders are booked at least 2 weeks in advance.</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; color: #ff0000;"><strong>Food Service requests cannot be submitted within 72 hours of the event and will <span style="text-decoration: underline;">not</span> be saved.</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; color: #ff0000;"><strong>Please contact Food Services to discuss your needs.</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; color: #0000ff;"><strong>Thank you for your cooperation!</strong></span></p>
 <p><br /></p>
 <p>For help using this form, <a title="please read the Knowledge Base article" href="https://shepherd.service-now.com/kb_view.do?sysparm_article&#61;KB0011883" target="_blank" rel="noopener noreferrer nofollow">please read the Knowledge Base article</a>.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
@@ -72,7 +74,7 @@
         <sys_created_on>2021-02-05 20:22:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>46ddfcd3db4e2890daa50825ca9619b3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Shepherd Event Request</sys_name>
         <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
         <sys_policy/>
@@ -80,7 +82,7 @@
         <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
         <sys_update_name>sc_cat_item_producer_46ddfcd3db4e2890daa50825ca9619b3</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2021-05-26 14:34:05</sys_updated_on>
+        <sys_updated_on>2021-05-26 15:08:44</sys_updated_on>
         <table_name>x_shce_event_manag_events</table_name>
         <template/>
         <type>item</type>

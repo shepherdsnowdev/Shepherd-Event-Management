@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_shce_event_manag_events</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_shce_event_manag_events">function_start_date_timeRELATIVELT@hour@ahead@72^food_service=true^EQ<item endquery="false" field="function_start_date_time" goto="false" newquery="false" operator="RELATIVE" or="false" value="LT@hour@ahead@72"/>
+            <item endquery="false" field="food_service" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Prevent submission of event &lt; 72 hours</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var isPortal = gs.action.getGlideURI().toString().startsWith('api/sn_sc/v1/servicecatalog');
+    //gs.addInfoMessage("isPortal is " + gs.action.getGlideURI().toString());
+
+    if (isPortal) {
+        current.setAbortAction(true);
+        gs.addErrorMessage("Food Service requests cannot be submitted within 72 hours of the event.  Please contact Food Services to discuss your needs.");
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2021-05-26 14:46:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fa09222db14bc50f20205d2ca9619af</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Prevent submission of event &lt; 72 hours</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management" source="x_shce_event_manag">8658dffadb02e490daa50825ca9619d7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Event Management">8658dffadb02e490daa50825ca9619d7</sys_scope>
+        <sys_update_name>sys_script_5fa09222db14bc50f20205d2ca9619af</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2021-05-26 19:49:43</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5fa09222db14bc50f20205d2ca9619af"/>
+</record_update>
